@@ -54,5 +54,17 @@ Process finished with exit code 0
 ```
 
 ### Problems
-1. Task 1
-2. Task 2
+Write down more test cases for those problems:
+1. Task 1 - twoSum Leetcode problem
+2. Task 2 - check whether the number is even or not
+3. Task 3 - proficient addition of two arguments
+4. Task 4 - find first vowel in a string
+
+### Homework
+1. create own example with arrays
+2. create own example with exceptions
+
+### Extra homework
+1. create own example with promise
+2. create own example with async/await
+3. create own example with callback
