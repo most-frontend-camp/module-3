@@ -1,5 +1,5 @@
 # Testing 
-
+You can test manually or using Jest:
 Install Jest using your favorite package manager:
 
 ```bash
