@@ -1,6 +1,6 @@
 function firstVowel(str) {
-    let vowel = /[aeiouAEIOU]/;
-    return str.search(vowel);
+    // write own solution
+
 }
 
 module.exports = firstVowel;
