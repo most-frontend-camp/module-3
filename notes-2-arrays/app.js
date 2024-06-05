@@ -1,8 +1,4 @@
-let letters = ['T', 'E', 'M', 'R', 'U', 'Q'];
+let animals = ['shark', 'salmon', 'whale', 'bear', 'lizard', 'tortoise'];
 
-console.log(letters.join(''));
-console.log(letters.join('&'));
-console.log(letters.join('.'));
-console.log(letters.reverse().join('.'));
-console.log(letters.reverse().join('-'));
-console.log(letters.reverse().join(''));
+animals.sort((a, b) => a - b);
+console.log(animals);

@@ -32,5 +32,8 @@ You can always join and reverse array that are from different data types.
 console.log([12.3, 60, false].join(''));
 console.log([12.3, 60, false].join(','));
 console.log([12.3, 60, false].join(' # -> '));
-
 ```
+
+### Slice and splice
+More about 
+https://habr.com/ru/articles/476082/
