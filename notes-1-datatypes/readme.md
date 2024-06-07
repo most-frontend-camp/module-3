@@ -101,6 +101,36 @@ console.log(typeof Math);
 // console, Math are builtin object datatypes in Javascript.
 
 
+### Working with strings
+```javascript
+const hello = 'Privet!';
+const char1 = hello.charAt(0);
+console.log(char1);
+console.log(hello[0]);
+
+const char2 = hello.charAt(1);
+console.log(char2);
+
+console.log(hello.charAt(hello.length - 1));
+``` 
+
+### преобразование
+
+// number преобразование
+console.log(typeof(+'5'));
+console.log(Number('5'));
+console.log(Number(true));
+console.log(Number(false));
+console.log(Number(null));
+console.log(Number(undefined));
+
+// number преобразование
+console.log(typeof(String(1232134)));
+console.log(typeof(String(123 +'')));
+console.log(typeof(String(true)));
+
+
+
 ### Homework
 
 ```javascript
@@ -112,3 +142,4 @@ console.log(5 + true);
 console.log(5 + undefined);
 console.log(5 + null);
 ```
+
