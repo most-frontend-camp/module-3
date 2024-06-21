@@ -15,6 +15,4 @@ class UserAdmin {
         this.#age = age;
         UserAdmin.count++;
     }
-
-
 }

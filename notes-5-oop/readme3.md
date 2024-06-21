@@ -25,6 +25,81 @@ let Car = class Car2{
 
 Сейчас
 1. call, apply -> rest spread
-2. bind -> arrow
+2. bind -> arrow function
 
 Эти способы помогают контролировать значение this.
+
+function - вызова
+arrow function - в момент создания 
+
+### Полиморфизм
+
+Собака
+Птица
+Улитка
+
+Общий метод - делают передвижение по разному
+
+Способность реализовать один метод название, но они делают по разному
+
+```js
+class Human {
+    constructor(name) {
+    this.name = name;
+    }
+
+    say(){
+        return `Hello, my name is ${this.name}, I like to move it!`;
+    }
+}
+
+class Men extends Human {
+constructor(name) {
+super(name);
+}
+}
+
+class Coder extends Human {
+constructor(name) {
+super(name);
+}
+
+    say(){
+        return `Hello, my name is ${this.name}, I like coding!`;
+    }
+}
+
+const alex = new Men('Alex');
+const leo = new Coder('Leo');
+console.log(alex.say());
+console.log(leo.say());
+```
+
+Вызываем один и тот же метод, но каждый объект делает его по-разному.
+
+### другой пример
+
+```js
+class Dog {
+    bark() {return "woof!"}
+    speak() {return "woof!"}
+}
+
+class Cat {
+    meow() {return "meow!"}
+    speak() {return "meow!"}
+}
+
+class Snake {
+    hiss() {return "Sssss....!"}
+    speak() {return "Sssss....!"}
+}
+
+for (const pet of pets) {
+    /*   if(pet instanceof Dog) pet.bark();
+    if(pet instanceof Cat) pet.meow();
+    if(pet instanceof Snake) pet.hiss();*/
+    pet.speak();
+}
+```
+
